@@ -11,7 +11,7 @@ const NavBar = () => {
           <Link to={"/createExercise"}>Create Exercise </Link>
         </li>
         <li>
-          <Link to={"/exerciseLogs"}>Student&#39;s exercises log </Link>
+          <Link to={"/exerciseLogs"}> exercise logs </Link>
         </li>
       </ul>
     </nav>
