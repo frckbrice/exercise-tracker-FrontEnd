@@ -1,22 +1,21 @@
-
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <nav className="nav">
       <ul>
         <li>
-          <a href="/createStudent"> Create Student</a>
+          <Link to={"/createStudent"}>Create Student</Link>
         </li>
         <li>
-          <a href="/createExercise">Create Exercise</a>{" "}
+          <Link to={"/createExercise"}>Create Exercise </Link>
         </li>
         <li>
-          <a href="/exerciseLogs">Student&#39;s exercises log</a>{" "}
+          <Link to={"/exerciseLogs"}> exercise logs </Link>
         </li>
       </ul>
     </nav>
   );
-}
+};
 
-
-export default NavBar
+export default NavBar;
