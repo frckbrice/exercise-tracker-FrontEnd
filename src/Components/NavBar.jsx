@@ -4,9 +4,15 @@ const NavBar = () => {
   return (
     <nav className="nav">
       <ul>
-        <Link to={"/createStudent"}>Create Student</Link>
-        <Link to={"/createExercise"}>Create Exercise </Link>
-        <Link to={"/exerciseLogs"}>Student&#39;s exercises log </Link>
+        <li>
+          <Link to={"/createStudent"}>Create Student</Link>
+        </li>
+        <li>
+          <Link to={"/createExercise"}>Create Exercise </Link>
+        </li>
+        <li>
+          <Link to={"/exerciseLogs"}>Student&#39;s exercises log </Link>
+        </li>
       </ul>
     </nav>
   );
